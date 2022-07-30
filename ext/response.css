@@ -5,8 +5,20 @@
     body{
         width: 100%;
     }
-    nav{
-        display: none;
+    .hamburger{
+        display: block;
+    }
+    .hide{
+        margin-top: -13rem;
+    }
+    .header ul{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: 27rem;
+    }
+    .header li{
+        font-size: 2.5rem;
     }
     .offers{
         top: 90rem;

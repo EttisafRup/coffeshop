@@ -5,24 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RupMama Coffeshop - A demo website for Code Festival 2022</title>
     <link rel="stylesheet" href="ext/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./ext/response.css">
+    <link rel="shortcut icon" href="./ext/img/coffe/coffe5.jpg" type="image/x-icon">
 </head>
 
 <body>
+    <div id="loader">
+        <h1 style="color: white; font-size:2rem;">Xtend Ettisaf - RupMama CoffeShop...</h1>
+        <p style="color: white; font-size:1.4rem;">An assignment project for - <strong> "Code Festival 2022" </strong></p>
+        <img src="./ext/loader/load.gif" alt="">
+    </div>
 
     <header class="header">
-        <div class="overlay"></div>
-        <nav>
-            <ul>
+        <nav class="hide">
+            <ul class="hide">
                 <li>Ratings</li>
                 <li>Price</li>
                 <li>Schedule</li>
                 <li>Home</li>
             </ul>
         </nav>
+
+        <div class="hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
     </header>
     <section class="land" data-aos="fade">
         <h1>Rup Mamar Coffeshop</h1>
@@ -143,6 +154,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="ext/script.js"></script>
+    <script src="ext/navigation/nav.js"></script>
         <script>
             AOS.init({
                 duration: 1200,
