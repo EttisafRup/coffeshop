@@ -201,6 +201,9 @@
     .contact p{
         font-size: 1.5rem;
     }
+    main{
+        top: 95rem;
+    }
     #name, #email{
         padding: 0.3rem 2rem;
     }
@@ -213,7 +216,7 @@
         top: 210rem;
     }
     .offers{
-        top: 100rem;
+        top: 105rem;
     }
     .offers p{
         font-size: 2.2rem;
