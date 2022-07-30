@@ -1,4 +1,7 @@
-@media (max-width: 1440px) {
+@media (max-width: 920px) {
+    .info h2{
+        margin-left: -3rem;
+    }
     body{
         width: 100%;
     }
@@ -27,41 +30,6 @@
     }
     marquee{
         margin-top: 12rem;
-    }
-}
-
-@media (max-width: 1040px) {
-    .offers{
-        top: 90rem;
-        margin: 0rem 5rem;
-    }
-    .info img{
-        width: 40rem;
-    }
-    main{
-        top: 60rem;
-    }
-    .offers{
-        top: 70rem;
-    }
-    .offers button{
-        margin-bottom: 1rem;
-    }
-    .contact{
-        top: 240rem;
-        height: 60rem;
-    }
-    footer{
-        top: 300rem;
-    }
-    marquee{
-        margin-top: 12rem;
-    }
-}
-
-@media (max-width: 920px) {
-    .info h2{
-        margin-left: -3rem;
     }
 }
 
@@ -112,7 +80,7 @@
         font-size: 3.5rem;
     }
     main{
-        top: 75rem;
+        top: 85rem;
     }
     .info h2{
         margin-left: 0rem;
@@ -122,13 +90,13 @@
         width: 35rem;
     }
     .offers{
-        top: 85rem;
+        top: 95rem;
     }
     .contact{
-        top: 220rem;
+        top: 240rem;
     }
     footer{
-        top: 270rem
+        top: 290rem
     }
     marquee{
         margin-top: 7rem;
@@ -142,7 +110,7 @@
         font-size: 3.5rem;
     }
     main{
-        top: 75rem;
+        top: 96rem;
     }
     .info h2{
         margin-left: 0rem;
@@ -152,13 +120,13 @@
         width: 30rem;
     }
     .offers{
-        top: 85rem;
+        top: 96rem;
     }
     .contact{
-        top: 230rem;
+        top: 250rem;
     }
     footer{
-        top: 280rem
+        top: 305rem
     }
     marquee{
         margin-top: 7rem;
@@ -169,10 +137,16 @@
         font-size: 40%;
     }
     .land h1{
-        font-size: 3.5rem;
+        font-size: 5rem;
+    }
+    .land p{
+        font-size: 2.1rem;
     }
     main{
-        top: 88rem;
+        top: 110rem;
+    }
+    .info{
+        height: 70%;
     }
     .info h2{
         margin-left: 0rem;
@@ -182,13 +156,16 @@
         width: 30rem;
     }
     .offers{
-        top: 95rem;
+        top: 90rem;
+    }
+    .ads{
+        top: 155rem;
     }
     .contact{
-        top: 236rem;
+        top: 270rem;
     }
     footer{
-        top: 287rem
+        top: 325rem
     }
     marquee{
         margin-top: 7rem;
@@ -198,11 +175,17 @@
     html{
         font-size: 37%;
     }
+    .land h1{
+        font-size: 4rem;
+    }
+    .land p{
+        font-size: 1.8rem;
+    }
     .contact p{
         font-size: 1.5rem;
     }
     main{
-        top: 95rem;
+        top: 120rem;
     }
     #name, #email{
         padding: 0.3rem 2rem;
@@ -216,7 +199,7 @@
         top: 210rem;
     }
     .offers{
-        top: 105rem;
+        top: 95rem;
     }
     .offers p{
         font-size: 2.2rem;
@@ -224,12 +207,15 @@
     }
 
     .contact{
-        top: 310rem;
+        top: 330rem;
     }
     footer{
-        top: 360rem
+        top: 380rem
     }
     .offers button{
         font-size: 2rem;
+    }
+    marquee{
+        margin-top: 30rem;
     }
 }
