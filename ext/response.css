@@ -1,0 +1,232 @@
+@media (max-width: 1440px) {
+    body{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .offers{
+        top: 90rem;
+        margin: 0rem 5rem;
+    }
+    .offers img{
+        width: 20rem;
+    }
+    main{
+        top: 86rem;
+    }
+    .offers button{
+        margin-bottom: 5rem;
+    }
+    .contact{
+        top: 235rem;
+        height: 60rem;
+    }
+    footer{
+        top: 300rem;
+    }
+    marquee{
+        margin-top: 12rem;
+    }
+}
+
+@media (max-width: 1040px) {
+    .offers{
+        top: 90rem;
+        margin: 0rem 5rem;
+    }
+    .info img{
+        width: 40rem;
+    }
+    main{
+        top: 60rem;
+    }
+    .offers{
+        top: 70rem;
+    }
+    .offers button{
+        margin-bottom: 1rem;
+    }
+    .contact{
+        top: 240rem;
+        height: 60rem;
+    }
+    footer{
+        top: 300rem;
+    }
+    marquee{
+        margin-top: 12rem;
+    }
+}
+
+@media (max-width: 920px) {
+    .info h2{
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 865px) {
+    .info h2{
+        margin-left: -3rem;
+        font-size: 2.4rem;
+    }
+    .info img{
+        width: 35rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .land h1{
+        font-size: 5rem;
+    }
+    .info img{
+        width: 35rem;
+    }
+}
+
+@media (max-width: 735px) {
+.info img{
+        width: 30rem;
+    }
+}
+
+@media (max-width: 645px) {
+    .offers img{
+        width: 15rem;
+    }
+}
+@media (max-width: 615px) {
+    html{
+        font-size: 57%;
+    }
+    marquee{
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width: 510px) {
+    html{
+        font-size: 50%;
+    }
+    .land h1{
+        font-size: 3.5rem;
+    }
+    main{
+        top: 75rem;
+    }
+    .info h2{
+        margin-left: 0rem;
+        font-size: 1.5rem;
+    }
+    .info img{
+        width: 35rem;
+    }
+    .offers{
+        top: 85rem;
+    }
+    .contact{
+        top: 220rem;
+    }
+    footer{
+        top: 270rem
+    }
+    marquee{
+        margin-top: 7rem;
+    }
+}
+@media (max-width: 435px) {
+    html{
+        font-size: 45%;
+    }
+    .land h1{
+        font-size: 3.5rem;
+    }
+    main{
+        top: 75rem;
+    }
+    .info h2{
+        margin-left: 0rem;
+        font-size: 1.7rem;
+    }
+    .info img{
+        width: 30rem;
+    }
+    .offers{
+        top: 85rem;
+    }
+    .contact{
+        top: 230rem;
+    }
+    footer{
+        top: 280rem
+    }
+    marquee{
+        margin-top: 7rem;
+    }
+}
+@media (max-width: 375px) {
+    html{
+        font-size: 40%;
+    }
+    .land h1{
+        font-size: 3.5rem;
+    }
+    main{
+        top: 88rem;
+    }
+    .info h2{
+        margin-left: 0rem;
+        font-size: 1.7rem;
+    }
+    .info img{
+        width: 30rem;
+    }
+    .offers{
+        top: 95rem;
+    }
+    .contact{
+        top: 236rem;
+    }
+    footer{
+        top: 287rem
+    }
+    marquee{
+        margin-top: 7rem;
+    }
+}
+@media (max-width: 320px) {
+    html{
+        font-size: 37%;
+    }
+    .contact p{
+        font-size: 1.5rem;
+    }
+    #name, #email{
+        padding: 0.3rem 2rem;
+    }
+    #message{
+        padding: 5rem 14rem;
+    }
+    .img{display: block;}
+
+    .ads{
+        top: 210rem;
+    }
+    .offers{
+        top: 100rem;
+    }
+    .offers p{
+        font-size: 2.2rem;
+        margin: 1rem 0rem;
+    }
+
+    .contact{
+        top: 310rem;
+    }
+    footer{
+        top: 360rem
+    }
+    .offers button{
+        font-size: 2rem;
+    }
+}

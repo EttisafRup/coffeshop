@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    font-family: 'Josefin sans', sans-serif;
+}
+body{
+    background-color: #111010 ;
+
+}
+.header::before{
+    content: '';
+    position: absolute;
+    z-index: -2;
+    height: 100vh;
+    width: 100%;
+    background: url(./img/bg.jpg) no-repeat center center/cover;
+}
+
+html{
+    font-size: 62.5%;
+}
+#break{
+    margin: 2rem 0rem;
+}
+.header ul{
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+    background-color: #2016019f;
+    width: 100%;
+    height: 6rem;
+}
+
+.header li{
+    color: white;
+    font-size: 1.8rem;
+    list-style: none;
+    padding: 2rem 3rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.header li:hover{
+    color: #a97916;
+    font-size: 1.8rem;
+    list-style: none;
+    background-color: white;
+    border-radius: 0rem 6rem 0rem 6rem;
+}
+.land{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+    flex-direction: column;
+}
+.land h1{
+    color: white;
+    font-size: 6rem;
+    text-shadow: 0 0 0.3rem white;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.333), transparent, #a978165b);
+    background-size: 200% 500%;
+    animation: gradient 5s ease infinite alternate;
+    border-radius: 50%;
+}
+.land p{
+    margin: 2rem 0rem;
+    color: white;
+    font-size: 1.8rem;
+    border-bottom: 0.2rem solid #a97916;
+}
+.land button{
+    padding: 1.5rem 2.5rem;
+    margin:  1rem;
+    font-size: 2.3rem;
+    color: white;
+    background: transparent;
+    border: none; outline: none;
+    border: 0.2rem solid white;
+    box-shadow: 0 0 0.4rem white;
+    border-radius: 7rem 1rem 7rem 1rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.land button:hover{
+    color: white;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), transparent, #a97916);
+    background-size: 500% 500%;
+    animation: gradient 3s ease infinite alternate;
+}
+    @keyframes gradient {
+        0% {
+            background-position: 50% 50%;
+        }
+    
+        50% {
+            background-position: -100% 100%;
+        }
+    
+        100% {
+            background-position: 100% -50%;
+        }
+    }
+
+main{
+    position: absolute;
+    top: 70rem;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.info{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 100%; width: 100%;
+}
+.info::before{
+    content: '';
+    z-index: -2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('./img/non.jpg') no-repeat fixed center/cover;
+}
+.info h2{
+    color: white;
+    font-size: 3rem;
+    margin: 0rem 1rem;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.80), transparent, rgb(169, 120, 22));
+    background-size: 200% 500%;
+    animation: gradient 5s ease infinite alternate;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+.info img{
+    width: 50rem;
+}
+.info p{
+    color: white;
+    font-size: 1.7rem;
+}
+.offers{
+    position: absolute;
+    top: 70rem;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.offers h2{
+    font-size: 3rem;
+}
+.offers p{
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+}
+.img, .adsFLEX{
+    display: flex;
+}
+.sale{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.offers img{
+    width: 30rem;
+}
+.offers button{
+    background: transparent;
+    border: 0.2rem solid white; outline: none;
+    border-radius: 1rem;
+    color: white;
+    margin: 1rem 0rem;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.offers button:hover{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    background-size: 100% 50%;
+}
+.ads::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background: url(./img/coffe/coffe6.jpg) no-repeat fixed center/cover;
+}
+.ads{
+    position: absolute;
+    top: 145rem;
+    width: 100%;
+    z-index: -1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1110108c;
+    border-radius: 1rem;
+}
+.articel{
+    text-align: center;
+}
+.ads h2{
+    color: white;
+    font-size: 2.7rem;
+    letter-spacing: 0.2rem;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.80), #0000005b ,rgb(67, 45, 1));
+    background-size: 200% 500%;
+    animation: gradient 5s ease infinite alternate;
+    padding: 1.5rem 0rem;
+}
+.ads label{
+    color: white;
+    font-size: 2rem;
+    margin: 2rem 0rem;
+    background-color: #1c1202a0;
+    padding: 1rem 1.5rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.ads img{
+    width: 25rem;
+    height: 30rem;
+    padding: 0rem 0.5rem;
+    margin: 3rem 0rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #a97916;
+}
+.ads p{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin: 1rem 1rem;
+    background-color: #111010;
+    padding: 1rem 0.5rem;
+    border-radius: 0.7rem;
+}
+.contact{
+    position: absolute;
+    top: 210rem;
+    width: 100%;
+    height: auto;
+}
+.contact h3{
+    color: white;
+    font-size: 2.4rem;
+}
+.contact p{
+    color: white;
+    font-size: 1.8rem;
+    margin: 1.5rem 0rem;
+}
+.contact form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact textarea{
+    background: transparent;
+    border: 0.2rem solid white; outline: none;
+    color: white;
+    font-size: 1.6rem;
+    resize: none;
+    margin: 0rem 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#name, #email{
+    padding: 0.5rem 4.5rem;
+}
+#message{
+    padding: 5rem 19rem;
+
+}
+.contact form button{
+    background-color: transparent;
+    border: 0.2rem solid white; outline: none;
+    color: white;
+    padding: 1rem 1.7rem;
+    font-size: 1.4rem;
+    border-radius: 0.4rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.contact form button:hover{
+    background-color: white;
+    color: black;
+    padding: 1rem 1.7rem;
+    font-size: 1.4rem;
+    border-radius: 0.4rem;
+}
+.contact p{
+    text-align: center;
+    margin: 3rem 0rem;
+    font-weight: 200;
+}
+::placeholder{
+    text-align: center;
+}
+footer{
+    position: absolute;
+    height: 5rem;
+    width: 100%;
+    top: 285rem;
+    color: white;
+    text-align: center;
+    background-color: #1b1a1a;
+    padding: 3rem 0rem;
+}
+footer label{
+    font-size: 2rem;
+}
+footer p{
+    font-size: 1.4rem;
+}
