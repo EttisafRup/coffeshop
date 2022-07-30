@@ -12,21 +12,34 @@
         top: 90rem;
         margin: 0rem 5rem;
     }
+    .land h1{
+        font-size: 7rem;
+    }
+    .land p{
+        font-size: 3rem;
+    }
+    .offers{
+        top: 150rem;
+    }
     .offers img{
         width: 20rem;
     }
     main{
-        top: 86rem;
+        top: 150rem;
+    }
+    .ads{
+        top: 220rem;
+        height: 50%;
     }
     .offers button{
         margin-bottom: 5rem;
     }
     .contact{
-        top: 235rem;
+        top: 300rem;
         height: 60rem;
     }
     footer{
-        top: 300rem;
+        top: 350rem;
     }
     marquee{
         margin-top: 12rem;
@@ -40,6 +53,22 @@
     }
     .info img{
         width: 35rem;
+    }
+    main{
+        top: 120rem;
+    }
+    .offers{
+        top: 130rem;
+    }
+    .ads{
+        top: 190rem;
+        height: 60%;
+    }
+    .contact{
+        top: 270rem;
+    }
+    footer{
+        top: 320rem;
     }
 }
 
@@ -69,6 +98,34 @@
     }
     marquee{
         margin-top: 7rem;
+    }
+}
+
+@media (max-width: 540px) {
+    html{
+        font-size: 50%;
+    }
+    .land p{
+        font-size: 2.5rem;
+    }
+    main{
+        top: 100rem;
+    }
+    .offers{
+        top: 100rem;
+    }
+    .ads{
+        top: 160rem;
+        height: 80%;
+    }
+    marquee{
+        margin-top: 7rem;
+    }
+    .contact{
+        top: 240rem;
+    }
+    footer{
+        top: 290rem;
     }
 }
 
@@ -110,7 +167,10 @@
         font-size: 3.5rem;
     }
     main{
-        top: 96rem;
+        top: 125rem;
+    }
+    .info{
+        top: 5rem;
     }
     .info h2{
         margin-left: 0rem;
@@ -120,16 +180,25 @@
         width: 30rem;
     }
     .offers{
-        top: 96rem;
+        top: 140rem;
+    }
+    .ads{
+        top: 200rem;
     }
     .contact{
-        top: 250rem;
+        top: 330rem;
     }
     footer{
-        top: 305rem
+        top: 385rem
     }
     marquee{
-        margin-top: 7rem;
+        margin-top: 25rem;
+    }
+    #name, #email{
+        padding: 1rem 3rem;
+    }
+    #message{
+        padding: 8rem 16rem;
     }
 }
 @media (max-width: 375px) {
@@ -156,19 +225,19 @@
         width: 30rem;
     }
     .offers{
-        top: 90rem;
+        top: 97rem;
     }
     .ads{
         top: 155rem;
     }
     .contact{
-        top: 270rem;
+        top: 280rem;
     }
     footer{
-        top: 325rem
+        top: 340rem
     }
     marquee{
-        margin-top: 7rem;
+        margin-top: 30rem;
     }
 }
 @media (max-width: 320px) {
@@ -217,5 +286,23 @@
     }
     marquee{
         margin-top: 30rem;
+    }
+}
+
+@media (max-width: 280px) {
+    .contact{
+        top: 310rem;
+    }
+    footer{
+        top: 365rem;
+    }
+    marquee{
+        margin-top: 16rem;
+    }
+    #name, #email{
+        padding: 0.6rem 1rem;
+    }
+    #message{
+        padding: 7rem 12rem;
     }
 }
